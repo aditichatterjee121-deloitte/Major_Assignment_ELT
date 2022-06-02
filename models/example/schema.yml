@@ -1,0 +1,48 @@
+
+version: 2
+
+models:
+  - name: Mile_1_part_1
+    description: "query for milestone 1 part 1"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: Mile_1_part_2
+    description: "query for milestone 1 part 2"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: Mile_2_part_1
+    description: "query for milestone 2 part 1"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: Mile_2_part_2
+    description: "query for milestone 2 part 2"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  
+  - name: Mile_2_part_3
+    description: "query for milestone 2 part 3"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

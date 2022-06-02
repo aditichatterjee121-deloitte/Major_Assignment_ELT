@@ -1,0 +1,2 @@
+select month(nav_date) as month,code,avg(nav) as average, avg(repurchase_price) as repurchase_average, avg(sale_price) as
+sale_average from "MAJORASSIGNMENT"."MAJORASSIGN"."NAV_HISTORY" group by code,month
